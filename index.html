@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/logo/fav.png" type="image/png">
+    <title>Ameer Hamza | Portfolio</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <h1>Ameer Hamza.</h1>
+            <div class="nav-links" id="navbar">
+                <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()" class="menus"></i>
+                <ul>
+                    <li><a href="#home" class="active" class="nav">Home</a></li>
+                    <li><a href="#about" class="nav">About</a></li>
+                    <li><a href="#project" class="nav">Projects</a></li>
+                    <li><a href="#contact" class="nav">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" id="menu" onclick="showMenu()"></i>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="/img/kk-removebg-preview.png" alt="" id="back-img">
+        <div class="home-content">
+            <h1 data-text="Hi, Im Ameer Hamza">Hi, I'm Ameer Hamza</h1>
+            <h3>Frontend Developer</h3>
+            <p>skilled in HTML, CSS, and JavaScript, crafting visually appealing and interactive websites that enhance
+                user experiences. With a keen eye for design and a passion for creating seamless interfaces, I strive to
+                deliver innovative and user-friendly solutions. Let's bring your digital vision to life together!</p>
+            <div class="btns-box">
+                <a href="mailto:ameerhamzakhan9744@gmail.com" class="btns hire">Hire Me</a>
+                <a class="btns talk" href="#contact">Let's Talk</a>
+            </div>
+
+            <!-- <div class="contact-links">
+                <a href="https://www.linkedin.com/in/ameer-hamza-4a8279229/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Hamza-73" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/hamzakhan073?t=ZU11Zr1MLD1Nm7B40PEDig&s=09" target="_blank"><i
+                        class="fa-brands fa-twitter"></i></a>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="about" class="hidden">
+        <div class="about-content">
+            <h1 class="h-primary">About <span>Me</span></h1>
+            <p>A passionate front-end developer with a strong focus on creating visually appealing and user-friendly web
+                experiences. My journey as a front-end developer began with a fascination for the intersection of design
+                and technology. I love the process of turning creative concepts into interactive and responsive websites
+                that engage users and leave a lasting impression. I am always eager to expand my knowledge and explore
+                new possibilities in the ever-evolving world of web development. Thank you for visiting my portfolio. I
+                invite you to explore my projects and get in touch if you have any exciting opportunities or
+                collaborations in mind. Let's work together to create impactful web experiences that make a difference.
+            </p>
+            <a class="btns">Download Resume</a>
+        </div>
+    </section>
+
+
+    <section id="project" class="hidden">
+        <div class="project-content">
+            <h1 class="h-primary">RECENT <span>PROJECTS</span></h1>
+
+            <div class="image-slider">
+                <i class="fa-solid fa-arrow-left" id="prev"></i>
+                <img src="/img/quizz.PNG" alt="" id='image'>
+                <i class="fa-solid fa-arrow-right" id="next"></i>
+                <div id="p-cont">
+                    <h1 id="p-content">JS QUIZ APP</h1>
+                    <a href="https://github.com/Hamza-73/JavaScript-Quiz-App" target="_blank" id="github"><img
+                            src="/logo/github.png" alt="" value="github"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <div class="contact-content">
+            <h1 class="h-primary">Contact <span>Info</span></h1>
+            <div class="row">
+                <a class="box box1" href="https://www.linkedin.com/in/ameer-hamza-4a8279229/" target="_blank">
+                    <img src="/logo/linkedIn.png" alt="">
+                    <div class="box-content">
+                        <h1>Linked<span>In</span></h1>
+                        <p>Ameer Hamza</p>
+                    </div>
+                </a>
+                <a class="box box2" href='https://twitter.com/hamzakhan073?t=ZU11Zr1MLD1Nm7B40PEDig&s=09'target="_blank">
+                    <img src="/logo/twitter.png" alt="">
+                    <div class="box-content">
+                        <h1>Twitter</h1>
+                        <p>Ameer Hamza</p>
+                    </div>
+                </a>
+                <a class="box box3" href="mailto: ameerhamzakhan9744@gmail.com" target="_blank">
+                    <img src="/logo/email.png" alt="">
+                    <div class="box-content">
+                        <h1>Email</h1>
+                        <p>ameerhamzakhan9744@gmail.com</p>
+                    </div>
+                </a>
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <h1 class="h-secondary"><span>A</span>meer <span>H</span>amza</h1>
+        <p>Your Complete Web Solution</p>
+        <p>Copyright © 2023 AmeerHamza. All rights reserved</p>
+    </footer>
+
+    <div id="up-key">
+        <a href="#header">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/3995ebe693.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
