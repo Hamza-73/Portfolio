@@ -93,18 +93,3 @@ nav.forEach((e) => {
         }
     })
 })
-
-function sendEmail(){
-    Email.send({
-        SecureToken : '5b41686c-376b-427c-bddc-0833f590e1b1',
-        To : 'ameerhamzakhan9744@gmail.com',
-        From : "ameerhamzakhan9744@gmail.com",
-        Subject : document.getElementById('subject'),
-        Body : `Name : ${document.getElementById('name').value} <br>
-                Email: ${document.getElementById('email').value} <br>
-                Phone : ${document.getElementById('phone').value} <br>
-                Message : ${document.getElementById('message').value} `
-    }).then(
-      message => alert(message)
-    );
-}
