@@ -93,3 +93,31 @@ nav.forEach((e) => {
         }
     })
 })
+
+function sendEmail(){
+    Email.send({
+        SecureToken : '5b41686c-376b-427c-bddc-0833f590e1b1',
+        To : 'ameerhamzakhan9744@gmail.com',
+        From : "ameerhamzakhan9744@gmail.com",
+        Subject : document.getElementById('subject'),
+        Body : `Name : ${document.getElementById('name').value} <br>
+                Email: ${document.getElementById('email').value} <br>
+                Phone : ${document.getElementById('phone').value} <br>
+                Message : ${document.getElementById('message').value} `
+    }).then(
+      message => alert(message)
+    );
+}
+
+// top button
+let topBtn = document.getElementById('up-key')
+
+window.addEventListener('scroll', ()=>{
+    if (window.pageYOffset > 200) {
+        // Show the "go to top" button=
+            topBtn.style.display = "block";
+      } else {
+        // Hide the "go to top" button
+        topBtn.style.display = "none";
+      }
+})
