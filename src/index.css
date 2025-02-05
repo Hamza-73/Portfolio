@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html{
+    scroll-behavior: smooth;
+}
+
+ body {
+    /* background-color: #F7F7F7; */
+    /* background-color: #ffff; */
+    /* color: #333333; 
+    color: #3273b4;  */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* 
+h1, h2, h3, h4 {
+} */
