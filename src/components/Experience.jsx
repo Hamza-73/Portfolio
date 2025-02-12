@@ -45,7 +45,7 @@ export default function Experience({ mode }) {
             company: 'Fourth Industrial Revolution Inc. (4irinc)',
             period: "July 2024 - September 2024",
             icon: "💻",
-            details: "Frontend Web Developer with expertise in React Js HTML, CSS, Tailwind CSS, and JavaScript to create interactive websites. Proficient in API integration and optimizing code for efficiency and maintainability.",
+            details: "Frontend Web Developer with expertise in React Js, HTML, CSS, Tailwind CSS, and JavaScript to create interactive websites. Proficient in API integration and optimizing code for efficiency and maintainability.",
         },
         {
             role: "Mern Stack Intern",
@@ -59,7 +59,7 @@ export default function Experience({ mode }) {
             company: "Digital Billing Services",
             period: "October 2023 - November 2023",
             icon: "🎨",
-            details: "Led end-to-end development of web applications using **React.js**, optimizing UI components and collaborating with cross-functional teams to deliver polished, efficient solutions.",
+            details: "Led end-to-end development of web applications using React.js, optimizing UI components and collaborating with cross-functional teams to deliver polished, efficient solutions.",
         },
     ];
 
